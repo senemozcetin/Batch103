@@ -13,11 +13,11 @@ public class E02 {
             System.out.println(arr[idx]);
         }catch (ArrayIndexOutOfBoundsException e){
             //Bu benim teknik olmayan aciklamam
-            System.out.println("Array index te bir problem meydana geldi====>"+e.getMessage());
+            System.out.println("Array index te bir problem meydana geldi  ====>"+e.getMessage());
             //Exception ile ilgili detaylica teknik mesaj verir
             e.printStackTrace();
             //Hata mesajini diger mesajlardan ayirmak icin kullaniriz
-            System.err.println("Array index te bir problem yasandi");
+            System.err.println("Array index te bir problem yasandi.");
         }
     }
 
