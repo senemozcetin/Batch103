@@ -2,6 +2,12 @@ package atmproject;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 public class Account {
+    // para cekme: withdraw
+    //para yatirma: deposit
+    // account : hesap/bakiye
+    //checking account : vadesiz hesap
+    // saving account: vadeli hesap
+
     private int accountNumber;// hesap numarasi
     private int pinNumber;//sifre
     private double checkingBalance; // vadesiz hesap bakiyesi
